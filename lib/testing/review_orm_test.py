@@ -50,7 +50,7 @@ class TestReview:
             year INT,
             summary TEXT,
             employee_id INTEGER,
-            FOREIGN KEY (employee_id) REFERENCES employee(id))
+            FOREIGN KEY (employee_id) REFERENCES employees(id))
         """
 
         Review.drop_table()
